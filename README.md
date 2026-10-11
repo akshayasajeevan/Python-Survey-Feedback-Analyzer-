@@ -1,63 +1,42 @@
 # Survey Feedback Analyzer
 
-A Python-based project that collects, cleans, and analyzes survey feedback to extract meaningful insights from customer comments and ratings.
-
-## Overview
-
-The Survey Feedback Analyzer processes written feedback using core Python programming concepts. It organizes feedback data, standardizes text, counts specific words, and summarizes customer ratings to provide a clear overview of survey responses.
+## Project Overview
+Survey Feedback Analyzer is a Python project that analyzes customer feedback using basic text cleaning and word analysis techniques. It helps summarize feedback and identify useful insights from customer ratings and comments.
 
 ## Features
-
-- **Feedback Management:** Stores survey responses using a dictionary of lists.
-- **User Input:** Collects additional feedback, customer names, and ratings.
-- **Text Cleaning:** Removes specified punctuation, extra spaces, and leading and trailing spaces, and converts text to lowercase.
-- **Word Count Analysis:** Counts feedback entries containing specific words such as `good`, `poor`, and `excellent`.
-- **Rating Analysis:** Calculates the average rating across all feedback entries.
-- **Longest Feedback:** Identifies the comment with the highest word count.
-- **Unique Word Extraction:** Generates a list of unique words used across the feedback entries.
+- Stores preloaded customer feedback in a dictionary of lists.
+- Allows users to add new feedback with names and ratings.
+- Cleans text by removing punctuation, extra spaces, and uppercase letters.
+- Counts feedback entries containing specific words such as *good*, *poor*, and *excellent*.
+- Calculates the average rating.
+- Identifies the feedback with the longest comment.
+- Extracts unique words from all feedback entries.
+- Optionally sorts feedback by rating from highest to lowest.
 
 ## Technologies Used
-
 - Python
 - Jupyter Notebook
 
-## Python Concepts Applied
-
+## Python Concepts Used
 - Dictionaries and lists
-- User input and type conversion
+- User input
 - Loops and conditional statements
-- User-defined functions
 - String manipulation
-- List operations
-- Basic data analysis
-
-## Project Workflow
-
-1. Initialize the dataset with preloaded survey feedback.
-2. Collect additional feedback from users.
-3. Clean and standardize all feedback text.
-4. Count feedback entries containing selected words.
-5. Calculate the average rating.
-6. Identify the longest feedback by word count.
-7. Extract unique words from all feedback entries.
+- Functions
+- Basic calculations
+- Sorting and unique word extraction
 
 ## How to Run
+1. Download or clone this repository.
+2. Open the `.ipynb` file in Jupyter Notebook.
+3. Run the cells in order.
+4. Enter additional feedback details when prompted.
+5. View the cleaned feedback and summary insights.
 
-1. Install Python and Jupyter Notebook.
-2. Open `Survey Feedback Analyzer.ipynb` in Jupyter Notebook.
-3. Run the code cells in order.
-4. Enter the requested feedback details when prompted.
-5. Review the cleaned data and analysis results.
-
-## Expected Outcomes
-
-- Clean and standardized feedback text
-- Counts of feedback entries containing selected words
-- Average customer rating
-- Longest feedback comment by word count
-- A list of unique words across all feedback
+## Project Outcome
+This project demonstrates the use of Python fundamentals to clean text data, analyze customer feedback, and generate meaningful summaries.
 
 ## Author
-
 **Akshaya S**  
 B.Sc. Computer Science Graduate
+
